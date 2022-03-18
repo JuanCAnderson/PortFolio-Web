@@ -177,28 +177,103 @@ h1, h2 , h3 , h4 ,h5 ,h6 {
   
 }
 
-#hero .btn-about {
-  font-family: 'Mukta', sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 12px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding:12px 40px;
-  border-radius: 50px;
-  transition:0.5s;
-  margin-top:30px;
-  color:#eff0f3 ;
-  background-color: #0f0e17
-
-}
 #hero .btn-about:hover {
   background:#34b7a7;
 }
 
+/* Seccion General */
+
+section {
+  padding:60px 0;
+  
+}
+
+.seccion-titulo {
+  text-align:center;
+  padding-bottom: 40px;
+}
+
+.seccion-titulo h2 {
+  font-size:35px;
+  font-weight:bold;
+  text-transform:uppercase;
+  margin-bottom: 20px;
+  padding-bottom:20px;
+  position: relative;
+}
+
+.seccion-titulo h2::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 5px;
+  background:#34b7a7;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.seccion-titulo p {
+  margin-bottom: 0;
+}
 
 
 
 
+/* Footer */
+
+#footer {
+  background: #e9e8e6;
+  padding:30px 0;
+  color: #222222;
+  font-size:15px;
+  text-align:center;
+
+}
+
+
+/* Habilidades */
+
+.skills .progreso {
+  height:60px;
+  display:block;
+  background:none;
+  border-radius: 0;
+}
+
+.skills .progreso .Habilidad {
+  padding:10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+.skill .progreso .Habilidad .val{
+  float: right;
+  font-style: normal;
+}
+
+.skills .progreso-bar-wrap{
+  background:#f3f3f3;
+
+}
+
+.skills .progreso-bar-wrap{
+  width: 1px;
+  height: 10px;
+  transition:0.9s;
+  background-color: #34b7a7;
+}
+
+
+
+/* PAGINA LOGIN --*/
+
+.login , html {
+  height:100%;
+}
 
 
