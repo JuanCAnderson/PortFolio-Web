@@ -1,0 +1,204 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #34b7a7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #51cdb5;
+  text-decoration:none;
+}
+
+h1, h2 , h3 , h4 ,h5 ,h6 {
+  font-family:'Raleway',sans-serif;
+}
+
+#main {
+  margin-top: 50px ;
+}
+
+@media (max-width: 992px) {
+  #main {
+    margin: top 30px;
+  }
+}
+
+
+/*HEADER */
+
+#header {
+  background: #0f0e17;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.08);
+  z-index: 997;
+  padding: 0px 0;
+}
+
+.header-social-links {
+  padding-right: 30px;
+}
+
+.header-social-links a {
+  color: #fffffe;
+  padding-left: 10px;
+  display: inline-block;
+  line-height: 0px;
+  transition:0.3s;
+  font-size:35px;
+}
+
+.login {
+  margin-right: 60px;
+  
+}
+
+.btn-outline-success {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+.header-social-links a:hover{
+  color: #34b7a7;
+}
+
+.imagen-logo{
+  max-height:130px;
+  
+  
+}
+
+/* Menu Navegacion */
+
+.navbar {
+  padding:0;
+}
+
+.navbar ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li{
+  position: relative;
+  padding: 10px 0 10px 30px;
+}
+
+.navbar a, .navbar a:focus {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fffffe;
+  white-space: nowrap;
+  transition:0,3s;
+  position: relative;
+
+}
+
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar > ul > li > a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #34b7a7;
+  visibility: hidden;
+  width: 0px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+  visibility: visible;
+  width: 25px;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #34b7a7;
+}
+
+/* Seccion Hero */
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background:url("../img/BackGround2.webp") top right;
+  background-size:cover;
+
+       
+}
+
+#hero::before{ 
+
+  content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+
+}
+
+#hero .container {
+  padding-top: 70px;
+  position: relative;
+}
+
+#hero h1 {
+  margin: 0;
+  font-size:70px;
+  font-weight: bold;
+  line-height:56px;
+  color: #eff0f3;
+  font-weight: 600;
+}
+
+#hero h2 {
+  color: #eff0f3;
+  margin: 25px 0 0 0;
+  font-size:22px;
+  
+}
+
+#hero .btn-about {
+  font-family: 'Mukta', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding:12px 40px;
+  border-radius: 50px;
+  transition:0.5s;
+  margin-top:30px;
+  color:#eff0f3 ;
+  background-color: #0f0e17
+
+}
+#hero .btn-about:hover {
+  background:#34b7a7;
+}
+
+
+
+
+
+
+
