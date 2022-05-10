@@ -28,6 +28,8 @@ h1, h2 , h3 , h4 ,h5 ,h6 {
 }
 
 
+
+
 /*HEADER */
 
 #header {
@@ -218,6 +220,25 @@ section {
 }
 
 
+.btn-edit {
+  margin-bottom:20px;
+  margin-right: 10px;
+  
+  
+  
+}
+
+.bi-pencil-fill:hover{
+  
+  cursor: pointer;
+  color: #34b7a7;
+  
+}
+
+.bi-pencil-fill{
+  margin-left: 5px;
+}
+
 
 
 /* Footer */
@@ -234,39 +255,155 @@ section {
 
 /* Habilidades */
 
-.skills .progreso {
-  height:60px;
-  display:block;
-  background:none;
-  border-radius: 0;
+.section-title h2::after{
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 5px;
+  background:#34b7a7;
+  bottom: 0;
+  left: calc(50% - 25px);
 }
 
-.skills .progreso .Habilidad {
-  padding:10px 0;
+.section-title h2{
+  font-size:35px;
+  font-weight:bold;
+  text-transform:uppercase;
+  margin-bottom: 20px;
+  padding-bottom:20px;
+  position: relative;
+  
+}
+
+
+
+.skills{
+  text-align:center;
+  margin-bottom:50px;
+  
+  
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 10px 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  
   color: #222222;
 }
-
-.skill .progreso .Habilidad .val{
+.skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
-
-.skills .progreso-bar-wrap{
-  background:#f3f3f3;
-
+.skills .progress-bar-wrap {
+  background: #f3f3f3;
 }
-
-.skills .progreso-bar-wrap{
+.skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition:0.9s;
+  transition: 0.9s;
   background-color: #34b7a7;
 }
+
+
+/* EDUCACION Y PROYECTO */
+
+
+
+.educacion .section-title {
+
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #222222;
+  
+}
+.educacion .educacion-item {
+  padding: 0 0 20px 20px;
+  margin-top: 5rem;
+  border-left: 2px solid #34b7a7;
+  position: relative;
+}
+.educacion .educacion-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  
+  color: #1d685f;
+  margin-bottom: 10px;
+}
+.educacion .educacion-item h5 {
+  font-size: 16px;
+  background: #effbf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #34b7a7;
+}
+
+.educacion .educacion-item:last-child {
+  padding-bottom: 0;
+}
+.educacion .educacion-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #34b7a7;
+}
+
+/* Contacto */
+
+.section-title{
+  text-align: center;
+}
+
+.contacto {
+  width: 100%;
+  background-color: #fff;
+}
+
+.contacto .form-group {
+  padding-bottom: 8px;
+}
+
+.contacto input, .contacto textarea:focus {
+  border-color: #34b7a7;
+}
+
+.contacto input {
+  height: 44px;
+}
+
+.contacto textarea {
+  padding:10px 12px;
+}
+
+.contacto button[type=submit] {
+  background: #34b7a7;
+  border: 0;
+  padding: 10px 30px 12px 30px;
+  color: #fff;
+  transition:0.4s;
+  border-radius:50px;
+}
+
 
 
 

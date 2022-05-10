@@ -46,11 +46,11 @@
           
           <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-              <li><a class="active" href="index.html">Inicio</a></li>
-              <li><a href="#">Sobre mi</a></li>
-              <li><a href="#">Habilidades</a></li>
-              <li><a href= "#">Educación </a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a class="active" href="#hero">Inicio</a></li>
+              <li><a href="#sobremi">Sobre mi</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href= "#educacion">Educación </a></li>
+              <li><a href="#contacto">Contacto</a></li>
             </ul>
             
           </nav><!-- .navbar -->
@@ -74,7 +74,7 @@
       <section id="hero" class="d-flex align-items-center">
         <div class="container d-flex flex-column align-items-center">
             <h1> Juan Cruz Anderson </h1>
-            <h2> Full Stack Developer </h2>
+            <h2> Full Stack Developer Jr </h2>
 
         </div>
       </section><!-- Fin Seccion Hero -->
@@ -82,95 +82,232 @@
     
       <!-- Seccion Sobre Mi ---------------------------------------------------- -->
 
-      <section id="sobre mi" class="sobre mi">
+      <section id="sobremi" class="sobre mi">
         <div class="container">
           <div class="seccion-titulo"> 
+            
             <h2> Sobre Mi</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+            <div class="btn-edit" onclick="cambiar_parrafo()"> 
+              <i class="bi bi-pencil-fill" style="font-size: 1.5rem "></i>
+            </div>
+            
+            <p id="text-acercade">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div>
+              <input id="edit-acercade" type="text" oninput="myfunction2(this.value)" style="display:none">
+            </div>
           </div>
 
           <div class="row">
             <div class="col-lg-4">
               <img src="assets/img/Perfil.webp" class="img-fluid" alt="imagen perfil">
-
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content">
               <h3>Developer Full Stack Jr &amp; HTML/CSS, JavaScript, Java, Base de Datos, DevOps</h3>
-              <p class = "fst-italic"> 
+              <p id="text-acercade" class = "fst-italic"> 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua.
               </p>
               <div class="row">
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Cumpleaños:</strong> 25 Junio 1997</li>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Telefono:</strong> +54 3548 58 8021</li>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Ciudad:</strong> La Cumbre, Córdoba, Argentina</li>
+                    <li ><i class="bi bi-rounded-right"></i> <strong>Cumpleaños:</strong> 25 Junio 1997</li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>Telefono:</strong> +54 3548 58 8021<i class="bi bi-pencil-fill" style="font-size: 1rem; padding-right: 5px; "></i></li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>Ciudad:</strong> La Cumbre, Córdoba, Argentina<i class="bi bi-pencil-fill" style="font-size: 1rem; padding-right: 5px; "></i></li>
                   </ul>
                 </div>
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Edad:</strong> 24</li>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Degree:</strong> Junior </li>
-                    <li><i class="bi bi-rounded-right"></i> <strong>Email:</strong> andersonjuancruz97@gmail.com</li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>Edad:</strong> 24 <i class="bi bi-pencil-fill" style="font-size: 1rem; padding-right: 5px; "></i></li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>Degree:</strong> Junior <i class="bi bi-pencil-fill" style="font-size: 1rem; padding-right: 5px; "></i></li>
+                    <li><i class="bi bi-rounded-right"></i> <strong>Email:</strong> andersonjuancruz97@gmail.com<i class="bi bi-pencil-fill" style="font-size: 1rem; padding-right: 5px; "></i></li>
                     </ul>
+                    <input id="edit-acercade" type="text" oninput="myfunction2(this.value)" style="display:none">
                 </div>
+                
               </div>
-              <p>
+
+              
+              <p id="text-acercade">
                 Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
                 Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                <i class="bi bi-pencil-fill" style="font-size: 1rem; padding-right: 5px; "></i>
+                <div>
+                  <input id="edit-acercade" type="text" oninput="myfunction2(this.value)" style="display:none">
+                </div>
+                
               </p>
+              
             </div>
+           
           </div>
-    
-        </div>
+          
+          <div>
+            <input id="edit-acercade" type="text" oninput="myfunction2(this.value)" style="display:none">
           </div>
 
-        </div>
+          
+
       </section> <!-- Final Seccion Sobre Mi --->
 
 
 
       <!-- Habilidades -->
 
-      <section id="skills" class="skills">
+      <section id="habilidades" class="skills">
         <div class="container">
-          <div class ="seccion-titulo">
+    
+          <div class="section-title">
             <h2>Habilidades</h2>
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+    
+          <div class="row skills-content">
+    
+            <div class="col-lg-6">
+    
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+    
+              <div class="progress">
+                <span class="skill">CSS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+    
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+    
             </div>
+    
+            <div class="col-lg-6">
+    
+              <div class="progress">
+                <span class="skill">PHP <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+    
+              <div class="progress">
+                <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+    
+              <div class="progress">
+                <span class="skill">Photoshop <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+    
+            </div>
+    
+          </div>
+    
+        </div>
+      </section><!-- Final Habilidades Seccion -->
+      <!-- Educacion y Proyectos-->
 
-            <div class="row skills-contenido">
-
-              <div class="col-lg-6">
+      <section id="educacion" class="educacion">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>Educacion</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-6">
+              
+              <div class="educacion-item pb-0">
+                <h4>Juan Cruz Anderson</h4>
+                <p><em>Como persona con gran motivacion, soy capaz de adaptarme a distintas circustancias , y dar siempre lo mejor de mi en cualquier proyecto.</em></p>
+                <p>
+                <ul>
+                  <li>La Cumbre, Córdoba, Argentina</li>
+                  <li>(3548) 58-8021</li>
+                  <li>andersonjuancruz97@gmail.com</li>
+                </ul>
+                </p>
+              </div>
+  
+              
+              <div class="educacion-item">
+                <h4>IDES Gral. San Martín </h4>
+                <h5>2008 - 2014</h5>
+                <p><em>La Cumbre, Córdoba, Argentina</em></p>
                 
-                <div class="progreso">
-                  <span class="Habilidad">HTML <i class="val">100%</i></span>
-                  <div class="progreso-bar-wrap">
-                    <div class="progreso-bar" role="progresobar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-
-                  </div>
-                </div>
-
-                <div class="progreso">
-                  <span class="Habilidad">CSS <i class="val">80%</i></span>
-                  <div class="progreso-bar-wrap">
-                    <div class="progreso-bar" role="progresobar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                    
-                  </div>
-                </div>
-
-                <div class="progreso">
-                  <span class="Habilidad">JavaScript <i class="val">70%</i></span>
-                  <div class="progreso-bar-wrap">
-                    <div class="progreso-bar" role="progresobar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                    
-                  </div>
-                </div>
+              </div>
+              <div class="educacion-item">
+                <h4>Facultad de Arquitectura, Urbanismo &amp; Diseño</h4>
+                <h5>2016 - 2019</h5>
+                <p><em>Universidad Nacional De Córdoba, Córdoba, Argentina</em></p>
                 
               </div>
             </div>
+            <div class="col-lg-6">
+              
+              <div class="educacion-item">
+                <h4>Facultad de Matematica, Astronomia, Fisica &amp; Computación</h4> </h4>
+                <h5>2020 - Present</h5>
+                <p><em>Universidad Nacional de Córdoba,Córdoba, Argentina</em></p>
+               
+              </div>
+              <div class="educacion-item">
+                <h4>Argentina Programa</h4>
+                <h5>2021 - Present</h5>
+                <p><em>Córdoba,Argentina</em></p>
+                
+              </div>
+            </div>
+          </div>
+  
         </div>
+      </section><!-- Fin Educación -->
+
+
+      <!--Contacto -->
+
+      <section id="contacto" class="contacto">
+        <div>
+          <div class="section-title">
+            <h2>Contacto</h2>
+        </div>
+
+        <form method="post" role="form" class="formulario">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" placeholder="Email" required>
+            </div>
+
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+
+            
+
+            <div class="text-center"><button type="submit">Send Message</button></div>
+
+        </form>
+
       </section>
 
 
@@ -181,7 +318,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Juan</span></strong>. Todos Los Derechos Reservados
+        &copy; 2022 <strong><span>Juan Cruz Anderson </span></strong>. Todos Los Derechos Reservados
       </div>
     </div>
   </footer><!-- Final Footer -->
@@ -191,7 +328,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/main.js"></script>
 
  </body>
 
